@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+
+  padding: 0;
+}
+body {
+  background-color: rgb(43, 44, 41);
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* margin-top: 5px; */
+}
+.card {
+  padding: 4px;
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+  height: 70px;
+
+  flex-direction: row;
+  background-color: rgb(240, 234, 234);
+  width: 100%;
+}
+.heading {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  align-items: center;
+  width: 100%;
+  flex-direction: row;
+  font-size: x-large;
+
+  font-family: "Luckiest Guy", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(233, 103, 11);
+  margin-left: 40px;
+  /* text-align: center; */
+  margin-bottom: 25px;
+}
+.ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+li {
+  margin: 20px;
+  position: relative;
+  left: 380px;
+  font-size: 30px;
+  margin: 50px;
+  /* color: antiquewhite; */
+  font-family: "Luckiest Guy", cursive;
+  margin-top: 25px;
+}
+
+.nav {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 110px;
+  height: 100px; /* Add a defined height */
+}
+
+img {
+  height: 205px;
+  position: relative;
+  top: 100px;
+}
+.winner {
+  position: relative;
+  top: 180px;
+  left: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(231, 247, 6); /* Gradient background */
+  border-radius: 20px; /* Rounded corners */
+  padding: 20px; /* Padding */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow */
+  width: 300px; /* Set width */
+  max-width: 80%; /* Maximum width */
+}
+.winner h2 {
+  font-size: x-large;
+  font-family: "Luckiest Guy", cursive;
+  color: rgb(0, 0, 0);
+  /* background-color: crimson; */
+}
+
+.scorecard {
+  position: relative;
+  top: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.marks {
+  display: flex;
+  justify-content: space-around;
+  gap: 65px;
+}
+p {
+  font-size: 1.5rem; /* Font size */
+  font-family: "Arial", sans-serif; /* Font family */
+  color: #e6e0e0; /* Text color */
+  font-weight: bold; /* Font weight */
+  text-transform: uppercase; /* Uppercase text */
+  letter-spacing: 1px; /* Letter spacing */
+  margin-bottom: 10px; /* Bottom margin */
+}
+
+.Choice {
+  transition: all 0.1s ease-in-out;
+}
+.Choice:hover {
+  border: 4px solid black;
+  border-radius: 50%;
+}
